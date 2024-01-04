@@ -16,7 +16,7 @@ import {
 import CustomIcon from './CustomIcon';
 
 type Props = {
-  onPress(params: String): void;
+  onPress(params: string): void;
 };
 
 const InputHeader = (props: Props) => {

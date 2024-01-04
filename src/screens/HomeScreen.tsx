@@ -88,7 +88,7 @@ const HomeScreen = ({navigation}: any) => {
   }, []);
 
   const searchMovieFunction = () => {
-    navigation.navigate('Search');
+    navigation.navigate('SearchScreen');
   };
 
   if (
