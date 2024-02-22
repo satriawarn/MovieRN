@@ -67,10 +67,4 @@ yarn-error.log
 
 package-lock.json
 package.json
-
-# iOS / CocoaPods
-/packages/react-native/template/ios/build/
-/packages/react-native/template/ios/Pods/
-/packages/react-native/template/ios/Podfile.lock
-/packages/rn-tester/Gemfile.lock
-/packages/**/RCTLegacyInteropComponents.mm
+ios/Podfile.lock
