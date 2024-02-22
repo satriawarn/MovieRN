@@ -212,6 +212,10 @@ const styles = StyleSheet.create({
     borderRadius: 80,
     backgroundColor: COLORS.Black,
   },
+  barcodeImage: {
+    height: 50,
+    aspectRatio: 158 / 52,
+  },
 });
 
 export default TicketScreen;
