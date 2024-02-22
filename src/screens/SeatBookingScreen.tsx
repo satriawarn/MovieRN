@@ -119,17 +119,17 @@ const SeatBookingScreen = ({navigation, route}: any) => {
             seatArray: selectedSeatArray,
             time: timeArray[selectedTimeIndex],
             date: dateArray[selectedDateIndex],
-            ticketImage: route.params.Poster,
+            ticketImage: route.params.posterImage,
           }),
         );
       } catch (error) {
         console.log('Something went wrong while storing in BookSeat');
       }
-      navigation.navigate('Ticket', {
+      navigation.navigate('TicketScreen', {
         seatArray: selectedSeatArray,
         time: timeArray[selectedTimeIndex],
         date: dateArray[selectedDateIndex],
-        ticketImage: route.params.Poster,
+        ticketImage: route.params.posterImage,
       });
     } else {
       console.log('Please select seat, date and time');
